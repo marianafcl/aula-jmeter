@@ -89,3 +89,15 @@ The CSV log format depends on which data items are selected in the configuration
 - Variables, if specified
 
 More information on this topic is [here](https://jmeter.apache.org/usermanual/listeners.html). Note that you can configure JMeter to output the results in other formats other than csv (e.g., XML).
+
+## Reports
+
+Since version [`2.2.0`](https://github.com/jmeter-maven-plugin/jmeter-maven-plugin/blob/master/CHANGELOG.md), html generation is built-in:
+
+Just add this in configuration element:
+
+```
+<generateReports>true</generateReports>
+```
+
+Just try this out, and check the output in the results folder.
