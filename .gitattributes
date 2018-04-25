@@ -9,3 +9,5 @@
 .gitignore              text
 .gitattributes          text
 /bin/*                  text
+.idea/
+*.iml
