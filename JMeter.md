@@ -1,4 +1,5 @@
 # JMeter Maven Plugin
+(based on the following [blogpost](https://www.blazemeter.com/blog/how-use-jmeter-maven-plugin))
 
 If you are using Maven and you need to load test your projects, you can use the [JMeter Maven plugin](https://github.com/jmeter-maven-plugin/jmeter-maven-plugin). This plugin enables you to run tests from within the Maven project, instead of running performance tests as scripts in [JMeter](http://jmeter.apache.org/). This blog post will go over how to run your [JMeter](http://jmeter.apache.org/) test from Maven, and how to view the results.
 
